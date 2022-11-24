@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vegetarian</title>
+   <link rel="icon" type="image/x-icon" href="favicon.png">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+	<!-- main -->
+	<main class="page">
+		<!-- Header -->
+	<header class="hero">
+		<div class="hero-container">
+			<div class="hero-text">
+				<h1>Nala Bheema Paakam</h1>
+				<h4>Veg Recipes</h4>
+			</div>
+		</div>
+	</header>
+	<!-- End of header -->
+	<!-- recipes container -->
+	<section class="recipes-container">
+		<!-- tag container -->
+		<div class="tags-container">
+			<!-- button start-->
+			<button class="button" onclick="funcategory()">Back</button>
+			<!-- button end-->
+			&nbsp
+			<h4>Recipes</h4>
+			<div class="tags-list">
+				<a href="./VEG/pannir curry.html">Kadai Panner</a>
+				<a href="./VEG/Gobi muchurian.html">Gobi Manchurian</a>
+				<a href="./VEG/fride rice.html">Veg Fried Rice</a>
+				<a href="./VEG/leman rice.html"> Lemon Rice</a>
+			</div>
+		</div>
+		<!-- end of tag container -->
+		<!-- recipes container -->
+		<div class="recipes-list">
+			<!-- Category-->
+			<a href="./VEG/pannir curry.html" class="recipe">
+			<img src="VEG/kadaipanner.jpg" alt="Kadai Panner" class="img recipe-img"/>
+			<h5>Kadai Panner</h5>
+			<!-- <p>Prep:30min | Cook:30min</p> -->
+			</a>
+			<!-- end of category -->
+			<!-- Category-->
+			<a href="./VEG/Gobi muchurian.html" class="recipe">
+			<img src="VEG/gobimanchurian.jpg" alt="Gobi Manchurian" class="img recipe-img"/>
+			<h5>Gobi Manchurian</h5>
+			<!-- <p>Prep:30min | Cook:30min</p> -->
+			</a>
+			<!-- end of category -->
+			<!-- Category-->
+			<a href="./VEG/fride rice.html" class="recipe">
+			<img src="VEG/vegfriedrice.jpg" alt="Veg Fried Rice" class="img recipe-img"/>
+			<h5>Veg Fried Rice</h5>
+			<!-- <p>Prep:30min | Cook:30min</p> -->
+			</a>
+			<!-- end of category -->
+			<!-- Category-->
+			<a href="./VEG/leman rice.html" class="recipe">
+			<img src="VEG/leomrice.jpg" alt="Lemon Rice" class="img recipe-img"/>
+			<h5>Lemon Rice</h5>
+			<!-- <p>Prep:30min | Cook:30min</p> -->
+			</a>
+			<!-- end of category -->
+		</div>
+		<!-- end of recipes container -->
+		
+	</section>
+	<!-- end of recipes container -->
+	</main>
+	<!-- End of main -->
+	<!-- footer -->
+	<footer class="page-footer">
+		<p>&copy; <span id="date">2022</span> Built by Spectrum-B </p>
+	</footer>
+	<!-- End of footer -->
+	<script src="category.js"></script>
+	
+</body>
